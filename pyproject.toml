@@ -1,0 +1,45 @@
+[project]
+name = "wavier"
+version = "0.1.0"
+description = "Wavelet-based Autoencoding VAE for Regression"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "h5py>=3.13.0",
+    "matplotlib>=3.9.4",
+    "pandas>=2.2.3",
+    "pywavelets>=1.6.0",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.13.1",
+    "seaborn>=0.13.2",
+    "catboost>=1.2.8",
+    "xgboost>=2.1.4",
+    "lightgbm>=4.6.0",
+    "torch>=2.7.0",
+    "lightning>=2.5.1.post0",
+    "einops>=0.8.1",
+    "mrmr-selection>=0.2.8",
+    "tslearn>=0.6.3",
+    "sktime>=0.38.1",
+    "imbalanced-learn>=0.12.4",
+    "pyts>=0.13.0",
+    "anchor-exp>=0.0.2.0",
+    "ruptures>=1.1.9",
+    "shap>=0.48.0",
+    "onnx>=1.18.0",
+    "plotly>=6.1.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+    "notebook>=6.4.0",
+    "jupyterlab>=3.0.0",
+]
+
+notebook = [
+    "ipywidgets>=8.0.0",
+    "plotly>=5.0.0",
+    "bokeh>=3.0.0",
+]
